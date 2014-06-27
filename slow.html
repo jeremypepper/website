@@ -1,3 +1,13 @@
 <html>
+<script>
+function now() {
+  return (new Date()).getTime();
+}
+var start = now();
+while(now() - start < 10000) {
+  // noop
+}
+console.log("done");
+</script>
 hello world
 </html>
